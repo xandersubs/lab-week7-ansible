@@ -21,10 +21,12 @@ the commands first make the delete_lab_key then i run the delete_lab_key after g
 the following are the terraform commands I ran inside the terraform directory
 ```bash
 terraform init
+terraform fmt
+terraform validate
 terraform plan main.tf
 terraform apply 
 ```
-the commands first initialize the terraform directory then i decide not to run fmt or validate as the file has been given to me and i trusted that it was created properly i then run terraform plan on the main.tf file and after the plan is run i then apply the plan 
+the commands first initialize the terraform directory then i ran terraform fmt and validate to format the terraform file and validate that it is written in the correct syntax and with no breaking errors i then run terraform plan on the main.tf file and after the plan is run i then apply the plan 
 
 the following are the ansible commands I ran inside the ansible directory
 ```bash
