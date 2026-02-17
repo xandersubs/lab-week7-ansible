@@ -7,7 +7,7 @@ the previous command creates a key of type ed25519 and puts the key in .ssh name
 the following is the command to run the included scripts to import the key
 ```bash
 chmod +x import_lab_key
-./import_lab_key ~/.ssh/aws
+./import_lab_key ~/.ssh/aws.pub
 ```
 the commands first make the import_lab_key executable then i pass the directory of the aws key to the import_lab_key as needed by the file 
 
